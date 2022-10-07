@@ -1,3 +1,4 @@
+import Card from "./components/Card";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
      <Navbar/>
      <Main />
+     <Card />
     </div>
   );
 }
