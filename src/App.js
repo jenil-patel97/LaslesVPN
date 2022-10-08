@@ -5,6 +5,7 @@ import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Network from "./components/Network";
 import Plans from "./components/Plans";
+import Subscribe from "./components/Subscribe";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Plans />
       <Network />
       <Customer />
+      <Subscribe />
     </div>
   );
 }
