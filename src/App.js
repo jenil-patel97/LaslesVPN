@@ -1,6 +1,7 @@
 import Card from "./components/Card";
 import Customer from "./components/Customer";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Network from "./components/Network";
@@ -18,6 +19,7 @@ function App() {
       <Network />
       <Customer />
       <Subscribe />
+      <Footer />
     </div>
   );
 }
