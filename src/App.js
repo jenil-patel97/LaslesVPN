@@ -1,4 +1,5 @@
 import Card from "./components/Card";
+import Customer from "./components/Customer";
 import Features from "./components/Features";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ function App() {
       <Features />
       <Plans />
       <Network />
+      <Customer />
     </div>
   );
 }
